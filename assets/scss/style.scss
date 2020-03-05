@@ -1,0 +1,42 @@
+@import "_reset.scss";
+@import "_mixins.scss";
+@import "_responsive.scss";
+@import "_colors.scss";
+@import "_headings.scss";
+
+body {
+
+      div.container {
+            margin: 100px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            button {
+                  padding: 8px 12px;
+            }
+
+            #portrait {
+                  width: 300px;
+                  height: 300px;
+                  background-size: contain;
+                  background-position: center;
+                  background-repeat: no-repeat;
+            }
+      
+            #joke-target {
+                  font-size: 20px;
+                  width: 400px;
+            }
+      }
+
+      div#btn-cont {
+            width: 200px;
+      }
+
+      div#joke-cont {
+            width: 70%;
+      }
+
+}
